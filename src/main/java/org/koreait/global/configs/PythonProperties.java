@@ -7,7 +7,6 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties(prefix="python.path")
 public class PythonProperties {
     private String base; // 파이썬 설치 경로
-    private String trend; // 뉴스 트렌드 py 파일 경로
-    private String base2;
-    private String restaurant;
+    private String emotion; // 감정분석 py 파일 경로
+
 }

@@ -19,12 +19,6 @@ public class Menus {
                 new Menu("list", "회원목록", "/admin/member")
         ));
 
-        // 트렌드 관리 메뉴
-        menus.put("trend", List.of(
-           new Menu("news", "뉴스", "/admin/trend"),
-           new Menu("etc", "기타", "/admin/trend/etc")
-        ));
-
         // 상품 관리 메뉴
         menus.put("product", List.of(
                 new Menu("list", "상품목록", "/admin/product"),

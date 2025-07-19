@@ -50,9 +50,8 @@ file:
 python:
   path:
     base: ${python.base}
-    base2: ${python.base2}
-    trend: ${python.trend}
-    restaurant: ${python.restaurant}
+    emotion: ${python.emotion}
+
 
 springdoc:
   version: '1.0.0'
